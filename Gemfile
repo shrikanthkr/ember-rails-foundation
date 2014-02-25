@@ -35,7 +35,10 @@ gem 'sdoc',          group: :doc, require: false
 gem 'spring',        group: :development
 
 gem 'ember-rails', github: 'emberjs/ember-rails'
+gem 'ember-source', '1.4.0'
+
 gem 'foundation-rails'
+gem 'devise'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
