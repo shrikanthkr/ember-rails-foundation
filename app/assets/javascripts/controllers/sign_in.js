@@ -11,8 +11,9 @@ EmberLearn.UsersSignInController = Ember.Controller.extend({
 			console.log(this.get('email'));
 			console.log(this.get('password'));
 			if(session.get('email') && session.get('password')){
-				session.save().then(function(){
-					console.log('Logged in')
+				session.save().then(function(res){
+						console.log(res);
+					console.log('Logged in');
 				},
 				function(res){
 					var val = JSON.parse(res.responseText);
