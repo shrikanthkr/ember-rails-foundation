@@ -23,5 +23,8 @@
 //= require_tree .
 
 // for more details see: http://emberjs.com/guides/application/
-EmberLearn = Ember.Application.create();
+EmberLearn = Ember.Application.create({
+	rootElement: '#ember-app',
+	LOGTRANSITIONS: true
+});
 $(function(){ $(document).foundation(); });
