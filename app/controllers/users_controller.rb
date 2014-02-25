@@ -7,4 +7,6 @@ class UsersController < ApplicationController
 			render json: {}
 		end
 	end
+
+	
 end

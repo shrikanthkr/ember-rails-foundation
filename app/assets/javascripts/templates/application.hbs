@@ -1,2 +1,9 @@
 This is your ember page :P
 
+{{#if isSignedIn}}
+U r signed in
+{{else}}
+Plsese login
+{{render 'users/sign_in'}}
+
+{{/if}}
